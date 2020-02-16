@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+html {
+    height: 100%;
+}
+
+body {
+    font-family: montserrat;
+    color: #2C3E50;
+}
+
+#msform {
+    margin: 50px 0;
+    position: relative;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+}
+
+#msform input,
+#msform textarea,
+#msform #annual,
+#msform #bank,
+#msform #borrowamount,
+#msform #overyear {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 12px;
+}
+
+#vbrand,
+#vmodel,
+#vcolour,
+#vprice {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 12px;
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    float: right;
+    text-align: center;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+.fs-title {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    padding: 25px 0px;
+}

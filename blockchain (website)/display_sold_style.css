@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+    font-family: montserrat;
+    color: #2C3E50;
+}
+
+#header {
+    margin-bottom: 0px;
+}
+
+.container {
+    margin-top: 30px;
+    height: 60vh;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    /* margin: 50px 0; */
+    border: 1px solid black;
+    position: relative;
+}
+
+label {
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 15px;
+}
+
+th {
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer {
+    margin-bottom: 0;
+}
